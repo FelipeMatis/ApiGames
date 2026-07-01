@@ -1,0 +1,20 @@
+npm init -Y
+npm i typescript
+npm i ts-node-dev
+npm i -D @types/node
+npm i --save-dev tsconfig-paths
+tsc --init
+npm run dev
+npx ts-node-dev -r tsconfig-paths/register src/shared/http/server.ts
+
+npm i express
+npm i express-async-errors
+npm i cors
+npm i -D @types/express
+npm i -D @types/cors
+
+npm i typeorm@latest
+npm i reflect-metadata
+npm i pg
+docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres #se tiver o postgres instalado no pc usa a porta 5433 do pc
+docker ps

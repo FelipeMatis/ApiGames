@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@modules/*": ["src/modules/*"],
+      "@shared/*": ["src/shared/*"]
+    },
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "types": ["node"]
+  }
+}
